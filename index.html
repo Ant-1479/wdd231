@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content=" Wdd 231 - Home page of Antwiwaa Stephanie ">
+    <title>Wdd 231- Home</title>
+    <meta name="author" content="Antwiwaah Stephanie">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!--stylesheet-->
+  <link rel="stylesheet" href="styles/small.css">
+  <link rel="stylesheet" href="styles/larger.css">
+<!--scripts-->
+<script src="scripts/navigation.js" defer></script>
+<script src="scripts/dates.js" defer></script>
+<script src="scripts/course.js" defer></script>
+</head>
+<body>
+    <!--HEADER-->
+    <header>
+    <div class="logo">
+            <img src="images/logo3.svg" alt="logo">
+        <span>Antwiwaah Stephanie</span>
+        </div>
+        
+        <button id="menu" aria-label="menu">&#9776;</button>
+
+        <nav>
+      <ul class="navigation">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">Chamber</a></li>
+        <li><a href="#">Project</a></li>
+        <li><a href="#">Final</a></li>
+      </ul>
+    </nav>
+    </header>
+    <!--MAIN-->
+    <main>
+        <h1>MY HOME PAGE </h1>
+
+        <section>
+            <h2>WELCOME TO MY PAGE</h2>
+            <img src="images/pic.jpg" alt="homepage image">
+            <p>This is my home page for WDD 231. I am excited to learn more about web development and enhance my skills in creating engaging and user-friendly websites. Stay tuned for updates on my projects and progress throughout the course!</p>
+        </section>
+
+         <section id="certificate">
+      <h2>Certificate Courses</h2>
+      <div id="course-buttons">
+        <button id="all">All Courses</button>
+        <button id="wdd">WDD Courses</button>
+        <button id="cse">CSE Courses</button>
+      </div>
+      <div id="courses-container"></div>
+      <p>Total Credits: <span id="total-credits">0</span></p>
+    </section>
+
+     <section>
+      <h2>ABOUT ME</h2>
+      <p>
+        My name is Obeng Antwiwaah Stephanie a frontend developer with strong ability in HTML,CSS and JavaScript and it related framework like react, tailwind and bootstrap. I specialize in creating a user-friendly interface which is responsive and accessible. Also I enjoy turning idea into interactive designs that improve user experience and I always ready to work with team and also learn contribute to impactful project that blend creativity with functionality. 
+      </p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>
+      <a href="https://github.com/yourgithubusername" target="_blank">GitHub</a> | 
+      <a href="https://www.linkedin.com/in/yourlinkedinprofile/" target="_blank">LinkedIn</a> |
+      <a href="#">Other</a>
+    </p>
+    <p>&copy; <span id="currentYear"></span> [Stephanie][Ghana]</p>
+    <p id="lastModified"></p>
+  </footer>
+
+    </main>   
+    
+</body>
+</html>
