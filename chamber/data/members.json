@@ -1,0 +1,73 @@
+
+[
+  {
+    "name": "Akos Fragrance",
+    "address": "123 Oxford Street, Accra",
+    "phone": "+233 24 123 4567",
+    "website": "https://www.akosfragrance.com",
+    "image": "busi.webp",
+    "membership": 3,
+    "industry": "Perfume and Beauty Products",
+    "description": "Luxury fragrances for men and women."
+  },
+  {
+    "name": "Accra Tech Solutions",
+    "address": "45 Liberation Road, Accra",
+    "phone": "+233 20 987 6543",
+    "website": "https://www.accratech.com",
+    "image": "busi.webp",
+    "membership": 2,
+    "industry": "Information Technology",
+    "description": "Software development and IT consulting."
+  },
+  {
+    "name": "Golden Harvest Farms",
+    "address": "12 Farm Lane, Kumasi",
+    "phone": "+233 26 765 4321",
+    "website": "https://www.goldenharvest.com",
+    "image": "busi.webp",
+    "membership": 3,
+    "industry": "Agriculture",
+    "description": "Supplying fresh produce nationwide."
+  },
+  {
+    "name": "Sunrise Logistics",
+    "address": "78 Harbor Street, Tema",
+    "phone": "+233 50 111 2222",
+    "website": "https://www.sunriselogistics.com",
+    "image": "busi.webp",
+    "membership": 1,
+    "industry": "Transportation",
+    "description": "Fast and reliable logistics services."
+  },
+  {
+    "name": "Royal Construction Ltd",
+    "address": "90 Independence Ave, Accra",
+    "phone": "+233 55 333 4444",
+    "website": "https://www.royalconstruction.com",
+    "image": "busi.webp",
+    "membership": 2,
+    "industry": "Construction",
+    "description": "Building modern infrastructure."
+  },
+  {
+    "name": "Ocean View Hotel",
+    "address": "22 Beach Road, Cape Coast",
+    "phone": "+233 24 555 6666",
+    "website": "https://www.oceanviewhotel.com",
+    "image": "busi.webp",
+    "membership": 3,
+    "industry": "Hospitality",
+    "description": "Luxury accommodation by the sea."
+  },
+  {
+    "name": "Bright Future Academy",
+    "address": "15 Education Street, Tamale",
+    "phone": "+233 27 777 8888",
+    "website": "https://www.brightfutureacademy.com",
+    "image": "busi.webp",
+    "membership": 1,
+    "industry": "Education",
+    "description": "Providing quality education for all."
+  }
+]
