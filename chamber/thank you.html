@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fannie collection chamber join page">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+    <!--facebooksocial media meta-->
+    <meta property="og:title" content="Fannie collection chamber landing page">
+    <meta property="og:description" content="Fannie collection chamber landing page">
+    <meta property="og:image" content="images/">
+    <meta property="og:url" content="">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!--stylesheet-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <Link rel="stylesheet" href="styles/larger.css">
+</head>
+<title>MY CHAMBER JOIN PAGE</title>
+<script defer>
+const params = new URLSearchParams(window.location.search);
+
+window.onload = () => {
+    document.getElementById("fname").textContent =
+        params.get("fname");
+
+    document.getElementById("lname").textContent =
+        params.get("lname");
+
+    document.getElementById("email").textContent =
+        params.get("email");
+
+    document.getElementById("phone").textContent =
+        params.get("phone");
+
+    document.getElementById("business").textContent =
+        params.get("business");
+
+    document.getElementById("timestamp").textContent =
+        params.get("timestamp");
+};
+</script>
+</head>
+
+<body>
+
+<header>
+    <h1>Thank You!</h1>
+</header>
+
+<main>
+
+<h2>Your Application Has Been Submitted</h2>
+
+<div class="results">
+    <p><strong>First Name:</strong> <span id="fname"></span></p>
+    <p><strong>Last Name:</strong> <span id="lname"></span></p>
+    <p><strong>Email:</strong> <span id="email"></span></p>
+    <p><strong>Phone:</strong> <span id="phone"></span></p>
+    <p><strong>Business:</strong> <span id="business"></span></p>
+    <p><strong>Date Submitted:</strong> <span id="timestamp"></span></p>
+</div>
+
+</main>
+
+<footer>
+  <footer class="footer">
+    <div class="footer-content">
+        <h3> Fannie collection Chamber of Commerce</h3>
+        <p>Connecting businesses, building opportunities.</p>
+
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://twitter.com" target="_blank">X (Twitter)</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Chamber of Commerce. All rights reserved.
+        </p>
+    </div>
+</footer>
+</footer>
+
+
+
+  <script src="scripts/navigation.js" defer></script>
+  <
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fannie collection chamber join page">
+    <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+    <!--facebooksocial media meta-->
+    <meta property="og:title" content="Fannie collection chamber landing page">
+    <meta property="og:description" content="Fannie collection chamber landing page">
+    <meta property="og:image" content="images/">
+    <meta property="og:url" content="">
+    <!--google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!--stylesheet-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <Link rel="stylesheet" href="styles/larger.css">
+</head>
+<title>MY CHAMBER  PAGE</title>
+</head>
+<body>
+  <!--start-->
+  <header>
+    <button class="hamburger" id="hamburger">
+    ☰
+  </button>
+     <div class="logo">
+      <h1> FAN <span>nie</span></h1>
+      </div>
+    
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Directory</a></li>
+        <li><a href="#">Join</a></li>
+        <li><a href="#">Discovery</a></li>
+      </ul>
+    </nav>
+  </header>
+<!--end-->
+
+<main class="join-container">
+
+    <section class="form-section">
+        <h2>Membership Application</h2>
+
+        <form method="get" action="thankyou.html">
+
+            <label>
+                First Name
+                <input type="text"
+                    name="fname"
+                    title="Enter your first name"
+                    autocomplete="given-name"
+                    required>
+            </label>
+
+            <label>
+                Last Name
+                <input type="text"
+                    name="lname"
+                    title="Enter your last name"
+                    autocomplete="family-name"
+                    required>
+            </label>
+
+            <label>
+                Organization Title
+                <input type="text"
+                    name="orgtitle"
+                    title="Your position in the organization"
+                    autocomplete="organization-title"
+                    pattern="[A-Za-z\s\-]{7,}"
+                    >
+            </label>
+
+            <label>
+                Email Address
+                <input type="email"
+                    name="email"
+                    title="Enter your email"
+                    autocomplete="email"
+                    placeholder="example@email.com"
+                    required>
+            </label>
+
+            <label>
+                Mobile Phone
+                <input type="tel"
+                    name="phone"
+                    title="Enter mobile number"
+                    autocomplete="tel"
+                    required>
+            </label>
+
+            <label>
+                Business Name
+                <input type="text"
+                    name="business"
+                    title="Organization Name"
+                    autocomplete="organization"
+                    required>
+            </label>
+
+            <label>
+                Membership Level
+                <select name="membership" required>
+                    <option value="">Select Membership</option>
+                    <option value="np">NP Membership</option>
+                    <option value="bronze">Bronze Membership</option>
+                    <option value="silver">Silver Membership</option>
+                    <option value="gold">Gold Membership</option>
+                </select>
+            </label>
+
+            <label>
+                Business Description
+                <textarea
+                    name="description"
+                    title="Business Description"
+                    rows="5"></textarea>
+            </label>
+
+            <input type="hidden" name="timestamp" id="timestamp">
+
+            <input type="submit" value="Submit Application">
+
+        </form>
+    </section>
+
+    <aside class="membership-cards">
+
+        <div class="card">
+            <h3>NP Membership</h3>
+            <a href="#" onclick="document.getElementById('npModal').showModal()">Benefits</a>
+        </div>
+
+        <div class="card">
+            <h3>Bronze Membership</h3>
+            <a href="#" onclick="document.getElementById('bronzeModal').showModal()">Benefits</a>
+        </div>
+
+        <div class="card">
+            <h3>Silver Membership</h3>
+            <a href="#" onclick="document.getElementById('silverModal').showModal()">Benefits</a>
+        </div>
+
+        <div class="card">
+            <h3>Gold Membership</h3>
+            <a href="#" onclick="document.getElementById('goldModal').showModal()">Benefits</a>
+        </div>
+
+    </aside>
+
+</main>
+
+
+<dialog id="npModal">
+    <h3>NP Membership Benefits</h3>
+    <ul>
+        <li>No membership fee</li>
+        <li>Networking opportunities</li>
+        <li>Community events access</li>
+    </ul>
+    <button onclick="npModal.close()">Close</button>
+</dialog>
+
+<!-- Bronze Modal -->
+<dialog id="bronzeModal">
+    <h3>Bronze Membership Benefits</h3>
+    <ul>
+        <li>Business listing</li>
+        <li>Training opportunities</li>
+        <li>Event discounts</li>
+    </ul>
+    <button onclick="bronzeModal.close()">Close</button>
+</dialog>
+
+<!-- Silver Modal -->
+<dialog id="silverModal">
+    <h3>Silver Membership Benefits</h3>
+    <ul>
+        <li>Everything in Bronze</li>
+        <li>Homepage spotlight</li>
+        <li>Advertising opportunities</li>
+    </ul>
+    <button onclick="silverModal.close()">Close</button>
+</dialog>
+
+<!-- Gold Modal -->
+<dialog id="goldModal">
+    <h3>Gold Membership Benefits</h3>
+    <ul>
+        <li>Everything in Silver</li>
+        <li>Premium advertising</li>
+        <li>VIP event access</li>
+    </ul>
+    <button onclick="goldModal.close()">Close</button>
+</dialog>
+
+<footer>
+  <footer class="footer">
+    <div class="footer-content">
+        <h3> Fannie collection Chamber of Commerce</h3>
+        <p>Connecting businesses, building opportunities.</p>
+
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">Facebook</a>
+            <a href="https://instagram.com" target="_blank">Instagram</a>
+            <a href="https://twitter.com" target="_blank">X (Twitter)</a>
+            <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+            <a href="https://youtube.com" target="_blank">YouTube</a>
+        </div>
+
+        <p class="copyright">
+            © 2026 Chamber of Commerce. All rights reserved.
+        </p>
+    </div>
+</footer>
+</footer>
+
+
+
+  <script src="scripts/navigation.js" defer></script>
+  <script src="scripts/script.js" defer></script>  
+</body>
+</html>
