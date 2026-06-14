@@ -2,66 +2,66 @@
 export const places = [
   {
     id: 1,
-    name: "Kwame Nkrumah Mausoleum",
-    address: "Nkrumah Circle, Accra, Ghana",
-    description: "A memorial park and resting place of Ghana's first president and pan-African visionary, Dr. Kwame Nkrumah. The site features a striking marble statue and museum showcasing Ghana's independence history.",
+    name: "Golden Desire",
+    address: "Fannie Collection, Accra, Ghana",
+    description:"Golden Desire is a luxurious fragrance crafted for those who love to stand out. Opening with bright, refreshing notes and settling into a warm, sensual base, this scent embodies confidence, elegance, and timeless sophistication. Perfect for both special occasions and everyday wear.",
     image: "images/2.png",
-    alt: "Kwame Nkrumah Mausoleum with fountain"
+    alt: "Golden Desire perfume bottle with golden accents"
   },
   {
     id: 2,
-    name: "Labadi Beach",
-    address: "La, Accra, Ghana",
-    description: "Accra's most popular public beach, stretching along the Atlantic coast. Known for lively weekend drumming, dancing, and fresh grilled seafood stalls, it captures the vibrant spirit of coastal Ghanaian life.",
+    name: "Midnight Bloom",
+    address: "Fannie Collection, Accra, Ghana",
+    description:"Inspired by the beauty of flowers blooming under the moonlight, Midnight Bloom combines delicate floral notes with rich woody undertones. The result is a captivating fragrance that feels mysterious, romantic, and effortlessly graceful from day to night",
     image: "images/3.png",
-    alt: "Labadi Beach with people and waves"
+    alt: "Midnight Bloom perfume bottle with moonlight effect"
   },
   {
     id: 3,
-    name: "Makola Market",
-    address: "Makola, Central Accra, Ghana",
-    description: "The commercial heartbeat of Accra — a sprawling open-air market where traders sell everything from fresh produce and fabrics to electronics. An unmissable sensory experience of everyday Accra.",
+    name: "Pure Essence",
+    address: "Fannie Collection, Accra, Ghana",
+    description:"Pure Essence is a refreshing and uplifting fragrance designed for lovers of clean, modern scents. Its blend of crisp citrus and soft musk creates a feeling of freshness that lasts throughout the day, making it the perfect companion for any occasion.",
     image: "images/4.png",
-    alt: "Busy Makola Market stalls"
+    alt: "Pure Essence perfume bottle with fresh citrus notes"
   },
   {
     id: 4,
-    name: "National Museum of Ghana",
-    address: "Barnes Road, Accra, Ghana",
-    description: "Home to an impressive collection of Ghanaian artifacts, traditional regalia, and historical objects spanning thousands of years. A must-visit for understanding the cultural depth of Ghana's many ethnic groups.",
+    name: "Royal Oud",
+    address: "Fannie Collection, Accra, Ghana",
+    description: "Royal Oud is a bold and sophisticated fragrance that celebrates luxury at its finest. Featuring rich oud, warm spices, and smooth woody notes, this scent delivers an unforgettable experience that reflects strength, prestige, and refined taste.",
     image: "images/5.png",
-    alt: "National Museum of Ghana entrance"
+    alt: "Royal Oud perfume bottle with rich oud notes"
   },
   {
     id: 5,
-    name: "Osu Castle (Christiansborg)",
-    address: "Osu, Accra, Ghana",
-    description: "A 17th-century Danish-built fort that later served as Ghana's seat of government. Its whitewashed walls overlooking the Atlantic hold centuries of colonial and post-independence history.",
+    name: "Velvet Rose",
+    address: "Fannie Collection, Accra, Ghana",
+    description: "Velvet Rose captures the timeless beauty of blooming roses wrapped in soft musk and subtle sweetness. Elegant and feminine, this fragrance leaves a delicate yet memorable trail that enhances your natural charm and confidence.",
     image: "images/6.png",
-    alt: "Osu Castle on the Accra coastline"
+    alt: "Velvet Rose perfume bottle with soft musk notes"
   },
   {
     id: 6,
-    name: "Aburi Botanical Gardens",
-    address: "Aburi, Eastern Region (near Accra), Ghana",
-    description: "Established in 1890 in the cool hills above Accra, this tranquil garden features over 700 tree species and manicured lawns. A popular retreat for families and nature lovers escaping city heat.",
+    name: "Ocean Breeze",
+    address: "Fannie Collection, Accra, Ghana",
+    description: "Feel the freshness of the sea with Ocean Breeze. This invigorating fragrance blends aquatic accords with hints of citrus and soft woods, creating a clean, energizing scent that evokes freedom, adventure, and tranquility.",
     image: "images/7.png",
-    alt: "Lush pathways of Aburi Botanical Gardens"
+    alt: "Ocean Breeze perfume bottle with aquatic notes"
   },
   {
     id: 7,
-    name: "Accra Arts Centre",
-    address: "28th February Road, Accra, Ghana",
-    description: "The city's premier crafts market where artisans sell hand-carved wooden sculptures, kente cloth, batik fabrics, beaded jewelry, and leather goods. Perfect for authentic Ghanaian souvenirs.",
+    name: "Urban Legend",
+    address: "Fannie Collection, Accra, Ghana",
+    description: "Urban Legend is designed for ambitious individuals who embrace modern style and confidence. With vibrant citrus notes balanced by earthy woods and musk, this fragrance offers a bold yet versatile scent that transitions seamlessly from work to evening outings.",
     image: "images/8.png",
-    alt: "Colorful crafts on display at Accra Arts Centre"
+    alt: "Urban Legend perfume bottle with vibrant citrus notes"
   },
   {
     id: 8,
-    name: "Independence Square",
-    address: "Independence Ave, Accra, Ghana",
-    description: "One of the largest public squares in Africa, built to celebrate Ghana's independence in 1957. The iconic Black Star Gate and vast open plaza host national ceremonies and public celebrations.",
+    name: "Amber Nights",
+    address: "Fannie Collection, Accra, Ghana",
+    description: "Amber Nights is a warm and seductive fragrance that combines rich amber, creamy vanilla, and soft woody notes. Its smooth and comforting aroma creates a lasting impression, making it the perfect choice for intimate evenings and memorable moments.",
     image: "images/9.png",
-    alt: "Black Star Gate at Independence Square"
+    alt: "Amber Nights perfume bottle with rich amber notes"
   }
 ];
