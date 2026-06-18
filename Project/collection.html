@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Collection — Akos Fragrance</title>
+  <meta name="description" content="Browse all Akos fragrances across the Noir, Lumière, and Heritage collections. Rare perfumes hand-composed from the world's finest ingredients." />
+  <meta name="author" content="Akos Fragrance" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Collection — Akos Fragrance" />
+  <meta property="og:description" content="Browse all 16 Akos fragrances across three distinct collections." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://akos-fragrance.com/collection.html" />
+  <meta property="og:image" content="images/og-collection.jpg" />
+
+  <link rel="icon" type="image/svg+xml" href="images/favicon.svg" />
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- ══ Navigation ══ -->
+  <nav class="site-nav scrolled" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">AK<span>O</span>S</a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <nav class="nav-mobile" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection</a>
+    <a href="about.html">Our Story</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- ══ Page Hero ══ -->
+    <section class="page-hero" aria-labelledby="collection-heading">
+      <div class="container">
+        <span class="label">Sixteen Fragrances</span>
+        <h1 class="display-lg" id="collection-heading" style="color:var(--ivory);">The Collection</h1>
+        <p>Every fragrance hand-composed from rare materials — each one a distinct world, a singular point of view.</p>
+      </div>
+    </section>
+
+    <!-- ══ Filter Bar ══ -->
+    <div class="filter-bar" role="navigation" aria-label="Filter fragrances">
+      <div class="container">
+        <div class="filter-bar-inner">
+          <button class="filter-btn active" data-filter="all">All Fragrances</button>
+          <button class="filter-btn" data-filter="Noir">Noir</button>
+          <button class="filter-btn" data-filter="Lumière">Lumière</button>
+          <button class="filter-btn" data-filter="Heritage">Heritage</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- ══ All Products ══ -->
+    <section class="all-products" aria-labelledby="products-label">
+      <div class="container">
+        <p class="products-count" id="products-label" aria-live="polite">Loading…</p>
+
+        <div class="product-grid" id="all-products" aria-label="Fragrance products">
+          <p style="color: rgba(245,239,230,0.3); padding: 60px; grid-column:1/-1; text-align:center;">
+            Loading fragrances…
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ Collection Cards (below products) ══ -->
+    <section class="section" style="background: var(--charcoal);" aria-labelledby="world-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="label">The Three Worlds</span>
+          <h2 class="display-md" id="world-heading" style="color:var(--ivory);">Each collection, a distinct universe</h2>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2px; margin-top: 48px;">
+
+          <div style="padding: 40px 32px; background: rgba(245,239,230,0.03); border-top: 1px solid var(--gold);">
+            <h3 class="display-sm" style="color:var(--ivory); margin-bottom:12px;">Noir</h3>
+            <p style="font-size:14px; color:rgba(245,239,230,0.5); line-height:1.7;">Darkness made luminous. Deep, resinous, and intoxicating — oud, incense, and precious woods for the fearless.</p>
+          </div>
+
+          <div style="padding: 40px 32px; background: rgba(245,239,230,0.03); border-top: 1px solid var(--gold-light);">
+            <h3 class="display-sm" style="color:var(--ivory); margin-bottom:12px;">Lumière</h3>
+            <p style="font-size:14px; color:rgba(245,239,230,0.5); line-height:1.7;">Light bottled. Radiant, airy, refined — jasmine, iris, neroli, and white florals that capture fleeting beauty.</p>
+          </div>
+
+          <div style="padding: 40px 32px; background: rgba(245,239,230,0.03); border-top: 1px solid rgba(201,169,110,0.5);">
+            <h3 class="display-sm" style="color:var(--ivory); margin-bottom:12px;">Heritage</h3>
+            <p style="font-size:14px; color:rgba(245,239,230,0.5); line-height:1.7;">Ancient materials, modern spirit. Amber, vetiver, tobacco, and sandalwood — materials that crossed empires.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ══ CTA ══ -->
+    <section style="background: var(--black); padding: 80px 0; text-align:center;" aria-labelledby="cta-heading">
+      <div class="container">
+        <span class="label" style="color:var(--gold); display:block; margin-bottom:16px;">Unsure where to begin?</span>
+        <h2 class="display-md" id="cta-heading" style="color:var(--ivory); margin-bottom:16px;">Let us guide you.</h2>
+        <p style="color:rgba(245,239,230,0.5); margin-bottom:36px; max-width:400px; margin-left:auto; margin-right:auto;">
+          Tell us how you like to smell and we'll curate a selection personally.
+        </p>
+        <a href="contact.html" class="btn btn-primary">Get a Recommendation</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ══ Footer ══ -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">AK<span>O</span>S</div>
+          <p>Rare fragrances, composed by hand, for those who understand that a scent is never just a scent.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="collection.html">All Fragrances</a></li>
+            <li><a href="collection.html?filter=noir">Noir Collection</a></li>
+            <li><a href="collection.html?filter=lumiere">Lumière Collection</a></li>
+            <li><a href="collection.html?filter=heritage">Heritage Collection</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Customer Care</a></li>
+            <li><a href="attributions.html">Attributions</a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">Video Demo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Akos Fragrance. All rights reserved.</p>
+        <div style="display:flex; gap:24px;">
+          <a href="attributions.html">Attributions</a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">▶ Video Demo</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ══ Fragrance Modal ══ -->
+  <div id="fragrance-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Fragrance details">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close dialog">✕</button>
+      <div class="modal-visual" aria-hidden="true"></div>
+      <div class="modal-body">
+        <span class="modal-collection"></span>
+        <h2 class="modal-name"></h2>
+        <div class="modal-meta"></div>
+        <p class="modal-desc"></p>
+        <div class="modal-notes"></div>
+        <div class="modal-details"></div>
+        <div class="modal-footer">
+          <span class="modal-price"></span>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <button class="modal-wishlist-btn btn btn-outline" style="padding:10px 20px;">Add to Wishlist</button>
+            <a href="contact.html" class="btn btn-primary" style="padding:10px 20px;">Enquire</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/Collection.js"></script>
+</body>
+</html>
