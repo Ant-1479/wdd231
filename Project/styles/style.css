@@ -20,9 +20,6 @@
   --section-pad: clamp(60px, 8vw, 120px);
 }
 
-/* ============================
-   Reset & Base
-   ============================ */
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -33,6 +30,8 @@ html {
   scroll-behavior: smooth;
   font-size: 16px;
 }
+
+
 
 body {
   font-family: var(--font-body);
@@ -131,9 +130,7 @@ button {
   padding: var(--section-pad) 0;
 }
 
-/* ============================
-   Navigation
-   ============================ */
+
 .site-nav {
   position: fixed;
   top: 0;
@@ -273,9 +270,7 @@ button {
   color: var(--gold);
 }
 
-/* ============================
-   Buttons
-   ============================ */
+
 .btn {
   display: inline-flex;
   align-items: center;
@@ -319,9 +314,9 @@ button {
   color: var(--gold);
 }
 
-/* ============================
+/* 
    HERO SECTION
-   ============================ */
+  */
 .hero {
   min-height: 100vh;
   background: var(--black);
@@ -390,9 +385,9 @@ button {
   flex-wrap: wrap;
 }
 
-/* ============================
+/* 
    Divider
-   ============================ */
+    */
 .gold-line {
   width: 40px;
   height: 1px;
@@ -412,9 +407,9 @@ button {
   display: block;
 }
 
-/* ============================
+/* 
    Feature Strip
-   ============================ */
+  */
 .feature-strip {
   background: var(--charcoal);
   padding: 24px 0;
@@ -447,9 +442,9 @@ button {
   background: var(--gold);
 }
 
-/* ============================
+/* 
    Collection Grid
-   ============================ */
+  */
 .collections-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -638,9 +633,9 @@ button {
   padding: 4px 10px;
 }
 
-/* ============================
+/*
    Philosophy / Story Section
-   ============================ */
+   */
 .philosophy {
   background: var(--ivory);
   display: grid;
@@ -691,9 +686,9 @@ button {
   align-self: flex-start;
 }
 
-/* ============================
+/* 
    Newsletter
-   ============================ */
+   */
 .newsletter {
   background: var(--charcoal);
   text-align: center;
@@ -761,9 +756,8 @@ button {
   background: var(--gold-light);
 }
 
-/* ============================
-   Footer
-   ============================ */
+/*
+   Footer */
 .site-footer {
   background: var(--black);
   padding: 60px 0 32px;
@@ -844,9 +838,8 @@ button {
   color: var(--gold);
 }
 
-/* ============================
-   COLLECTION PAGE
-   ============================ */
+/*    COLLECTION PAGE
+   */
 .page-hero {
   background: var(--black);
   padding-top: calc(var(--nav-height) + 60px);
@@ -923,9 +916,9 @@ button {
   margin-bottom: 32px;
 }
 
-/* ============================
+/*
    ABOUT PAGE
-   ============================ */
+ */
 .about-hero {
   background: var(--black);
   padding-top: calc(var(--nav-height) + 80px);
@@ -1105,9 +1098,9 @@ button {
   line-height: 1.7;
 }
 
-/* ============================
+/* 
    CONTACT PAGE / FORM
-   ============================ */
+    */
 .contact-section {
   background: var(--black);
   min-height: 100vh;
@@ -1230,9 +1223,9 @@ button {
   margin-top: 8px;
 }
 
-/* ============================
+/* 
    MODAL
-   ============================ */
+ */
 .modal-overlay {
   display: none;
   position: fixed;
@@ -1396,9 +1389,8 @@ button {
   color: var(--gold);
 }
 
-/* ============================
-   Form Action Page
-   ============================ */
+/* 
+   Form Action Pag */
 .form-action-page {
   min-height: 100vh;
   background: var(--black);
@@ -1475,9 +1467,9 @@ button {
   color: rgba(245, 239, 230, 0.6);
 }
 
-/* ============================
+/* 
    Wayfinding / Active State
-   ============================ */
+    */
 .site-nav .nav-links a[aria-current="page"] {
   color: var(--ivory);
 }
@@ -1486,9 +1478,9 @@ button {
   width: 100%;
 }
 
-/* ============================
+/*
    Responsive
-   ============================ */
+   */
 @media (max-width: 1024px) {
   .collections-grid {
     grid-template-columns: 1fr;
@@ -1613,9 +1605,8 @@ button {
   }
 }
 
-/* ============================
-   Lazy Load
-   ============================ */
+/* 
+   Lazy Loading*/
 img.lazy {
   opacity: 0;
   transition: opacity 0.4s ease;
@@ -1625,9 +1616,9 @@ img.lazy.loaded {
   opacity: 1;
 }
 
-/* ============================
+/* 
    Accessibility
-   ============================ */
+*/
 :focus-visible {
   outline: 2px solid var(--gold);
   outline-offset: 3px;
