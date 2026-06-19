@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Akos Fragrance</title>
+  <meta name="description" content="Contact Akos Fragrance for personalized scent recommendations, wholesale enquiries, press, or customer care." />
+  <meta name="author" content="Antwiwaah Stephanie" />
+  <meta property="og:title" content="Contact — Akos Fragrance" />
+  <meta property="og:description" content="Reach out to Akos Fragrance for enquiries, recommendations, and customer care." />
+  <meta property="og:type" content="website" />
+  <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+  <link rel="stylesheet" href="styles/style.css" />
+</head>
+<body>
+
+  <!-- ══ Navigation ══ -->
+  <nav class="site-nav scrolled" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">AK<span>O</span>S</a>
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav -->
+  <nav class="nav-mobile" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection</a>
+    <a href="about.html">Our Story</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+    <div class="container contact-section" aria-labelledby="contact-heading">
+
+      <!-- Left: Info -->
+      <div class="contact-info">
+        <span class="label">Reach Out</span>
+        <h1 class="display-lg" id="contact-heading">Let's talk<br />fragrance.</h1>
+        <p>Whether you need a recommendation, have a wholesale enquiry, or simply want to ask a question — we respond personally to every message.</p>
+
+        <div class="contact-detail">
+          <span class="label">Atelier</span>
+          <p>14 Cantonments Road<br />Accra, Ghana</p>
+        </div>
+
+        <div class="contact-detail">
+          <span class="label">Email</span>
+          <p>hello@akosfragrance.com</p>
+        </div>
+
+        <div class="contact-detail">
+          <span class="label">Hours</span>
+          <p>Monday – Friday, 9am – 5pm GMT</p>
+        </div>
+
+        <div class="contact-detail">
+          <span class="label">Response Time</span>
+          <p>We aim to reply within 24 hours.</p>
+        </div>
+
+        <!-- Decorative bottle art -->
+        <div aria-hidden="true" style="margin-top: 48px; opacity: 0.35;">
+          <svg viewBox="0 0 200 250" width="140" height="175">
+            <defs>
+              <linearGradient id="ctaBottle" x1="0%" y1="0%" x2="100%" y2="0%">
+                <stop offset="0%" stop-color="#1a1208" />
+                <stop offset="50%" stop-color="#C9A96E" stop-opacity="0.6" />
+                <stop offset="100%" stop-color="#1a1208" />
+              </linearGradient>
+            </defs>
+            <rect x="60" y="88" width="80" height="140" rx="5" fill="url(#ctaBottle)" />
+            <rect x="82" y="56" width="36" height="32" rx="2" fill="url(#ctaBottle)" />
+            <rect x="68" y="42" width="64" height="18" rx="2" fill="#C9A96E" opacity="0.7" />
+            <rect x="85" y="24" width="30" height="20" rx="2" fill="#C9A96E" opacity="0.9" />
+            <rect x="72" y="108" width="56" height="68" fill="none" stroke="#C9A96E" stroke-width="0.6" opacity="0.5" />
+            <ellipse cx="100" cy="227" rx="40" ry="5" fill="#000" opacity="0.4" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- Right: Form -->
+      <div class="contact-form-wrapper">
+        <h2>Send us a message</h2>
+
+        <form class="contact-form" action="form-success.html" method="GET" aria-label="Contact form" novalidate>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="first-name">First Name</label>
+              <input type="text" id="first-name" name="firstname" placeholder="Ama" required autocomplete="given-name" />
+            </div>
+            <div class="form-group">
+              <label for="last-name">Last Name</label>
+              <input type="text" id="last-name" name="lastname" placeholder="Kojo" required autocomplete="family-name" />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required autocomplete="email" />
+          </div>
+
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject" required>
+              <option value="" disabled selected>Select a topic</option>
+              <option value="recommendation">Fragrance Recommendation</option>
+              <option value="order">Order Enquiry</option>
+              <option value="wholesale">Wholesale / Retail</option>
+              <option value="press">Press & Media</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="fragrance-pref">Fragrance Preference (optional)</label>
+            <select id="fragrance-pref" name="preference">
+              <option value="" disabled selected>How do you like to smell?</option>
+              <option value="woody-dark">Woody &amp; Dark</option>
+              <option value="floral-light">Floral &amp; Light</option>
+              <option value="warm-spicy">Warm &amp; Spicy</option>
+              <option value="fresh-clean">Fresh &amp; Clean</option>
+              <option value="oriental-resinous">Oriental &amp; Resinous</option>
+              <option value="not-sure">Not Sure — Help Me</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell us what you're looking for, or ask us anything…" required></textarea>
+          </div>
+
+          <div class="form-group">
+            <label style="display:flex; align-items:flex-start; gap:12px; cursor:pointer; text-transform:none; letter-spacing:0; font-size:13px; color:rgba(245,239,230,0.55);">
+              <input type="checkbox" name="newsletter" value="yes" style="margin-top:3px; accent-color: var(--gold);" />
+              Subscribe to the Akos Letter for new releases and exclusive access.
+            </label>
+          </div>
+
+          <div class="form-submit">
+            <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Message</button>
+            <p class="preference-note">Your details are never shared. We respond within 24 hours.</p>
+          </div>
+
+        </form>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ══ Footer ══ -->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">AK<span>O</span>S</div>
+          <p>Rare fragrances, composed by hand.</p>
+        </div>
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="collection.html">All Fragrances</a></li>
+            <li><a href="collection.html?filter=noir">Noir</a></li>
+            <li><a href="collection.html?filter=lumiere">Lumière</a></li>
+            <li><a href="collection.html?filter=heritage">Heritage</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="attributions.html">Attributions</a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">Video Demo</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Akos Fragrance. All rights reserved.</p>
+        <div style="display:flex; gap:24px;">
+          <a href="attributions.html">Attributions</a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">▶ Video Demo</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="scripts/About.js"></script>
+</body>
+</html>

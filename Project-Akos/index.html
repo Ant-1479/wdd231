@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Akos Fragrance — Luxury Perfumery</title>
+  <meta name="description" content="Akos Fragrance crafts exceptional luxury perfumes rooted in rare ingredients, ancient traditions, and modern artistry. Discover our Noir, Lumière, and Heritage collections." />
+  <meta name="author" content="Antwiwaah Stephanie" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Akos Fragrance — Luxury Perfumery" />
+  <meta property="og:description" content="Exceptional luxury perfumes rooted in rare ingredients and modern artistry." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://akos-fragrance.com/" />
+  <meta property="og:image" content="images/og-home.jpg" />
+
+  <!-- Favicon -->
+   <link rel="icon" href="images/favicon (2).ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="styles/style.css" type="text/css" />
+</head>
+<body>
+
+  <!-- ══ Navigation ══ -->
+  <nav class="site-nav" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="index.html" class="nav-logo">AK<span>O</span>S</a>
+
+      <ul class="nav-links" role="list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="collection.html">Collection</a></li>
+        <li><a href="about.html">Our Story</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Mobile Nav Drawer -->
+  <nav class="nav-mobile" aria-label="Mobile navigation">
+    <a href="index.html">Home</a>
+    <a href="collection.html">Collection</a>
+    <a href="about.html">Our Story</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <main>
+
+    <!-- Hero-->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero-bg" aria-hidden="true"></div>
+
+      <!-- Decorative bottle -->
+      <div class="hero-bottle" aria-hidden="true">
+        <img src="images/HERO1.webp" alt="hero-bottle" width="auto" />
+          <defs>
+            <radialGradient id="heroGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.18" />
+              <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+            </radialGradient>
+            <linearGradient id="heroBody" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#1A1208" />
+              <stop offset="35%" stop-color="#C9A96E" stop-opacity="0.4" />
+              <stop offset="65%" stop-color="#C9A96E" stop-opacity="0.15" />
+              <stop offset="100%" stop-color="#1A1208" />
+            </linearGradient>
+            <linearGradient id="heroCap" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#0D0A05" />
+              <stop offset="50%" stop-color="#C9A96E" />
+              <stop offset="100%" stop-color="#0D0A05" />
+            </linearGradient>
+          </defs>
+
+          <!-- Glow -->
+          <ellipse cx="170" cy="300" rx="140" ry="160" fill="url(#heroGlow)" />
+
+          <!-- Bottle body -->
+          <rect x="90" y="170" width="160" height="270" rx="8" fill="url(#heroBody)" />
+
+          <!-- Highlight stripe -->
+          <rect x="108" y="180" width="20" height="250" rx="4" fill="#C9A96E" opacity="0.12" />
+
+          <!-- Label border -->
+          <rect x="108" y="230" width="124" height="130" rx="2"
+                fill="none" stroke="#C9A96E" stroke-width="0.8" opacity="0.5" />
+
+          <!-- Label lines -->
+          <line x1="128" y1="258" x2="212" y2="258" stroke="#C9A96E" stroke-width="0.6" opacity="0.6" />
+          <line x1="135" y1="278" x2="205" y2="278" stroke="#C9A96E" stroke-width="0.4" opacity="0.4" />
+          <line x1="135" y1="292" x2="205" y2="292" stroke="#C9A96E" stroke-width="0.4" opacity="0.4" />
+          <line x1="135" y1="306" x2="205" y2="306" stroke="#C9A96E" stroke-width="0.4" opacity="0.3" />
+          <line x1="148" y1="320" x2="192" y2="320" stroke="#C9A96E" stroke-width="0.4" opacity="0.3" />
+
+          <!-- Neck -->
+          <rect x="148" y="118" width="44" height="52" rx="3" fill="url(#heroBody)" />
+
+          <!-- Cap base -->
+          <rect x="128" y="88" width="84" height="30" rx="2" fill="url(#heroCap)" />
+
+          <!-- Cap top -->
+          <rect x="155" y="64" width="30" height="24" rx="2" fill="#C9A96E" opacity="0.85" />
+
+          <!-- Bottom shadow -->
+          <ellipse cx="170" cy="439" rx="80" ry="8" fill="#000" opacity="0.5" />
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="hero-content">
+          <span class="label hero-eyebrow">Luxury Perfumery · Est. 2018</span>
+          <h1 class="display-xl hero-title">
+            Scent is<br /><em>memory</em><br />made real.
+          </h1>
+          <p class="body-lg hero-sub">
+            Akos crafts rare, hand-composed fragrances from the world's most precious ingredients — each bottle a small act of artistry.
+          </p>
+          <div class="hero-actions">
+            <a href="collection.html" class="btn btn-primary">Explore Collection</a>
+            <a href="about.html" class="btn btn-outline">Our Philosophy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Feature Strip-->
+    <div class="feature-strip" aria-label="Key features">
+      <div class="container">
+        <div class="feature-strip-inner">
+          <div class="feature-item">
+            <span class="label">Rare Ingredients</span>
+          </div>
+          <span class="feature-dot" aria-hidden="true"></span>
+          <div class="feature-item">
+            <span class="label">Hand Composed</span>
+          </div>
+          <span class="feature-dot" aria-hidden="true"></span>
+          <div class="feature-item">
+            <span class="label">Small Batch</span>
+          </div>
+          <span class="feature-dot" aria-hidden="true"></span>
+          <div class="feature-item">
+            <span class="label">Worldwide Shipping</span>
+          </div>
+          <span class="feature-dot" aria-hidden="true"></span>
+          <div class="feature-item">
+            <span class="label">Complimentary Samples</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Collections -->
+    <section class="section" aria-labelledby="collections-heading">
+      <div class="section-header">
+        <span class="label">Curated Worlds</span>
+        <h2 class="display-lg" id="collections-heading">Three Collections</h2>
+      </div>
+
+      <div class="collections-grid">
+        <!-- Noir -->
+        <article class="collection-card">
+          <div class="collection-card-bg noir" aria-hidden="true"></div>
+          <div class="collection-bottle-art" aria-hidden="true">
+            <img src="images/1.webp" alt="Noir Collection" width="180" height="280" />
+          </div>
+          <div class="collection-card-content">
+                </linearGradient>
+              </defs>
+              <rect x="60" y="100" width="80" height="170" rx="4" fill="url(#noirG)" />
+              <rect x="82" y="68" width="36" height="32" rx="2" fill="url(#noirG)" />
+              <rect x="70" y="54" width="60" height="18" rx="1" fill="#C9A96E" opacity="0.7" />
+              <rect x="88" y="36" width="24" height="18" rx="1" fill="#C9A96E" opacity="0.9" />
+              <rect x="75" y="120" width="50" height="80" rx="1" fill="none" stroke="#C9A96E" stroke-width="0.6" opacity="0.6" />
+            </svg>
+          </div>
+          <div class="collection-card-content">
+            <span class="label">The Noir Collection</span>
+            <h3>Noir</h3>
+            <p>Deep, resinous, intoxicating. Oud, incense, and precious woods for those who wear fragrance like armour.</p>
+            <a href="collection.html?filter=noir" class="btn btn-outline">Explore Noir</a>
+          </div>
+        </article>
+
+        <!-- Lumière -->
+        <article class="collection-card">
+          <div class="collection-card-bg lumiere" aria-hidden="true"></div>
+          <div class="collection-bottle-art" aria-hidden="true">
+            <img src="images/4.webp" width="180" height="280">
+              <defs>
+                <linearGradient id="lumiG" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#1A1108" />
+                  <stop offset="50%" stop-color="#E0C9A0" stop-opacity="0.5" />
+                  <stop offset="100%" stop-color="#1A1108" />
+                </linearGradient>
+              </defs>
+              <rect x="55" y="95" width="90" height="175" rx="6" fill="url(#lumiG)" />
+              <rect x="80" y="63" width="40" height="32" rx="2" fill="url(#lumiG)" />
+              <rect x="65" y="50" width="70" height="18" rx="2" fill="#E0C9A0" opacity="0.7" />
+              <rect x="84" y="33" width="32" height="20" rx="2" fill="#E0C9A0" opacity="0.9" />
+              <rect x="72" y="115" width="56" height="85" rx="1" fill="none" stroke="#E0C9A0" stroke-width="0.6" opacity="0.6" />
+            </svg>
+          </div>
+          <div class="collection-card-content">
+            <span class="label">The Lumière Collection</span>
+            <h3>Lumière</h3>
+            <p>Radiant, airy, refined. Jasmine, iris, and neroli capturing fleeting moments of luminous beauty.</p>
+            <a href="collection.html?filter=lumiere" class="btn btn-outline">Explore Lumière</a>
+          </div>
+        </article>
+
+        <!-- Heritage -->
+        <article class="collection-card">
+          <div class="collection-card-bg heritage" aria-hidden="true"></div>
+          <div class="collection-bottle-art" aria-hidden="true">
+            <img src="images/5.webp" width="180" height="280">
+              <defs>
+                <linearGradient id="herG" x1="0%" y1="0%" x2="100%" y2="0%">
+                  <stop offset="0%" stop-color="#0D0906" />
+                  <stop offset="50%" stop-color="#B8922A" stop-opacity="0.5" />
+                  <stop offset="100%" stop-color="#0D0906" />
+                </linearGradient>
+              </defs>
+              <rect x="62" y="98" width="76" height="172" rx="3" fill="url(#herG)" />
+              <rect x="84" y="65" width="32" height="33" rx="2" fill="url(#herG)" />
+              <rect x="70" y="52" width="60" height="18" rx="1" fill="#B8922A" opacity="0.7" />
+              <rect x="87" y="35" width="26" height="20" rx="1" fill="#B8922A" opacity="0.9" />
+              <rect x="76" y="118" width="48" height="82" rx="1" fill="none" stroke="#B8922A" stroke-width="0.6" opacity="0.6" />
+            </svg>
+          </div>
+          <div class="collection-card-content">
+            <span class="label">The Heritage Collection</span>
+            <h3>Heritage</h3>
+            <p>Ancient materials, modern spirit. Amber, vetiver, tobacco, and sandalwood that have crossed empires.</p>
+            <a href="collection.html?filter=heritage" class="btn btn-outline">Explore Heritage</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    
+    <section class="section products-section" aria-labelledby="featured-heading">
+      <div class="container">
+        <div class="section-header">
+          <span class="label">Selected Works</span>
+          <h2 class="display-lg" id="featured-heading" style="color: var(--ivory);">Featured Fragrances</h2>
+        </div>
+
+        <div class="product-grid" id="featured-products" aria-live="polite" aria-label="Featured fragrance products">
+          <!-- Populated by JS -->
+          <p style="color: rgba(245,239,230,0.3); padding: 40px; grid-column:1/-1; text-align:center;">
+            Loading fragrances…
+          </p>
+        </div>
+
+        <div style="text-align:center; margin-top: 48px;">
+          <a href="collection.html" class="btn btn-outline">View All 16 Fragrances</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Philosophy-->
+    <section class="philosophy" aria-labelledby="philosophy-heading">
+      <div class="philosophy-visual" aria-hidden="true">
+        <img src="images/HERO 2.webp" width="300" height="380" opacity="0.6">
+          <defs>
+            <radialGradient id="philGlow" cx="50%" cy="50%" r="50%">
+              <stop offset="0%" stop-color="#C9A96E" stop-opacity="0.3" />
+              <stop offset="100%" stop-color="#C9A96E" stop-opacity="0" />
+            </radialGradient>
+            <linearGradient id="philBody" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" stop-color="#1a1208" />
+              <stop offset="40%" stop-color="#C9A96E" stop-opacity="0.55" />
+              <stop offset="100%" stop-color="#1a1208" />
+            </linearGradient>
+          </defs>
+          <ellipse cx="200" cy="320" rx="150" ry="150" fill="url(#philGlow)" />
+          <rect x="120" y="160" width="160" height="290" rx="8" fill="url(#philBody)" />
+          <rect x="142" y="172" width="22" height="266" rx="4" fill="#C9A96E" opacity="0.1" />
+          <rect x="138" y="220" width="124" height="145" fill="none" stroke="#C9A96E" stroke-width="0.8" opacity="0.5" />
+          <line x1="158" y1="252" x2="244" y2="252" stroke="#C9A96E" stroke-width="0.6" opacity="0.6" />
+          <line x1="164" y1="270" x2="236" y2="270" stroke="#C9A96E" stroke-width="0.4" opacity="0.4" />
+          <line x1="164" y1="284" x2="236" y2="284" stroke="#C9A96E" stroke-width="0.4" opacity="0.4" />
+          <rect x="168" y="108" width="64" height="52" rx="3" fill="url(#philBody)" />
+          <rect x="146" y="82" width="108" height="30" rx="2" fill="#C9A96E" opacity="0.7" />
+          <rect x="176" y="54" width="48" height="30" rx="2" fill="#C9A96E" opacity="0.9" />
+          <ellipse cx="200" cy="449" rx="80" ry="8" fill="#000" opacity="0.5" />
+        </svg>
+      </div>
+
+      <div class="philosophy-content">
+        <span class="label">Our Ethos</span>
+        <h2 class="display-lg" id="philosophy-heading">
+          Scent as<br /><em>a form of art</em>
+        </h2>
+        <p>Every Akos fragrance begins with obsession — a search for the rarest ingredients, the finest absolutes, the most expressive raw materials on earth.</p>
+        <p>We do not rush. A single fragrance may take two years to perfect. The result is not a product. It is a statement.</p>
+        <a href="about.html" class="btn btn-outline-dark">Read Our Story</a>
+      </div>
+    </section>
+
+    <!-- Newsletter-->
+    <section class="newsletter" aria-labelledby="newsletter-heading">
+      <div class="container">
+        <span class="label" style="color: var(--gold); display:block; margin-bottom:16px;">Stay Connected</span>
+        <h2 class="display-md" id="newsletter-heading">The Akos Letter</h2>
+        <p>New releases, behind-the-scenes stories, and exclusive access — delivered rarely and only when it matters.</p>
+        <form class="newsletter-form" aria-label="Newsletter signup">
+          <label for="newsletter-email" class="sr-only">Email address</label>
+          <input type="email" id="newsletter-email" name="email" placeholder="Your email address" required autocomplete="email" />
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!--Footer-->
+  <footer class="site-footer" aria-label="Site footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="logo">AK<span>O</span>S</div>
+          <p>Rare fragrances, composed by hand, for those who understand that a scent is never just a scent.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="collection.html">All Fragrances</a></li>
+            <li><a href="collection.html?filter=noir">Noir Collection</a></li>
+            <li><a href="collection.html?filter=lumiere">Lumière Collection</a></li>
+            <li><a href="collection.html?filter=heritage">Heritage Collection</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="about.html#process">Our Process</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Support</h4>
+          <ul>
+            <li><a href="contact.html">Customer Care</a></li>
+            <li><a href="attributions.html">Attributions</a></li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">Video Demo</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Akos Fragrance. All rights reserved.</p>
+        <div style="display:flex; gap:24px;">
+          <a href="attributions.html">Attributions</a>
+          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer">▶ Video Demo</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--Fragrance Modal -->
+  <div id="fragrance-modal" class="modal-overlay" role="dialog" aria-modal="true" aria-label="Fragrance details">
+    <div class="modal">
+      <button class="modal-close" aria-label="Close dialog">✕</button>
+      <div class="modal-visual" aria-hidden="true"></div>
+      <div class="modal-body">
+        <span class="modal-collection"></span>
+        <h2 class="modal-name"></h2>
+        <div class="modal-meta"></div>
+        <p class="modal-desc"></p>
+        <div class="modal-notes"></div>
+        <div class="modal-details"></div>
+        <div class="modal-footer">
+          <span class="modal-price"></span>
+          <div style="display:flex; gap:12px; flex-wrap:wrap;">
+            <button class="modal-wishlist-btn btn btn-outline" style="padding:10px 20px;">Add to Wishlist</button>
+            <a href="contact.html" class="btn btn-primary" style="padding:10px 20px;">Enquire</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
