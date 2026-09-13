@@ -76,6 +76,4 @@ listButton.addEventListener("click", () => {
     membersContainer.classList.add("list");
     membersContainer.classList.remove("grid");
 });
-
-// Load members when page opens
 getMembers();
