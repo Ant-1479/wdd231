@@ -1,0 +1,75 @@
+[
+    {
+        "name": "Accra Business Solutions",
+        "address": "12 Independence Avenue, Accra, Ghana",
+        "phone": "+233 24 111 2233",
+        "website": "https://www.accra-business-solutions.com",
+        "image": "1.jpg",
+        "membership": 3,
+        "description": "Providing professional business consulting and technology solutions to growing businesses."
+    },
+    {
+        "name": "Golden Star Logistics",
+        "address": "25 Ring Road Central, Accra, Ghana",
+        "phone": "+233 20 456 7890",
+        "website": "https://www.goldenstarlogistics.com",
+        "image": "2.jpg",
+        "membership": 2,
+        "description": "Reliable transportation and logistics services for businesses across Ghana."
+    },
+    {
+        "name": "Akos Fragrance",
+        "address": "8 Oxford Street, Osu, Accra, Ghana",
+        "phone": "+233 59 398 6737",
+        "website": "https://www.akosfragrance.com",
+        "image": "3.jpg",
+        "membership": 1,
+        "description": "Quality perfumes and fragrances designed to express confidence and elegance."
+    },
+    {
+        "name": "TechBridge Ghana",
+        "address": "15 Liberation Road, Accra, Ghana",
+        "phone": "+233 27 222 3344",
+        "website": "https://www.techbridgeghana.com",
+        "image": "9.jpg",
+        "membership": 3,
+        "description": "Innovative digital solutions, web development, and IT consulting services."
+    },
+    {
+        "name": "Green Harvest Foods",
+        "address": "40 Spintex Road, Accra, Ghana",
+        "phone": "+233 50 555 6677",
+        "website": "https://www.greenharvestfoods.com",
+        "image": "5.jpg",
+        "membership": 2,
+        "description": "Supplying fresh, healthy, and locally produced food products."
+    },
+    {
+        "name": "Royal Construction Ltd",
+        "address": "22 Cantonments Road, Accra, Ghana",
+        "phone": "+233 24 888 9900",
+        "website": "https://www.royalconstruction.com",
+        "image": "6.jpg",
+        "membership": 3,
+        "description": "Professional construction and building services for residential and commercial projects."
+    },
+    {
+        "name": "Bright Future Academy",
+        "address": "10 East Legon Hills, Accra, Ghana",
+        "phone": "+233 26 333 4455",
+        "website": "https://www.brightfutureacademy.com",
+        "image": "7.jpg",
+        "membership": 1,
+        "description": "Providing quality education and skills development for young learners."
+    }
+      ,
+    {
+        "name": "Bright Future Academy",
+        "address": "10 East Legon Hills, Accra, Ghana",
+        "phone": "+233 26 333 4455",
+        "website": "https://www.brightfutureacademy.com",
+        "image": "7.jpg",
+        "membership": 1,
+        "description": "Providing quality education and skills development for young learners."
+    }
+]
