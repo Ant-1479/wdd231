@@ -1,75 +1,75 @@
 {
   "members": [
     {
-      "name": "Copper Kettle Bakery",
+      "name": "ACCRA BUSINESS SOLUTIONS",
       "logo": "images/1.jpg",
       "phone": "208-555-0114",
-      "address": "214 Main St, Boise, ID 83702",
-      "website": "https://www.copperkettlebakery.example",
+      "address": "12 Independence,AVENUE",
+      "website": "https://www.copperkettlebakery.com",
       "membership": "Gold"
     },
     {
-      "name": "Northgate Family Dental",
+      "name": "GOLDEN STAR LOGISTICS",
       "logo": "images/2.jpg",
       "phone": "208-555-0127",
-      "address": "58 N Capitol Blvd, Boise, ID 83702",
-      "website": "https://www.northgatedental.example",
-      "membership": "Gold"
+      "address": "25 Ring Road Central Accra",
+      "website": "https://www.northgatedental.com",
+      "membership": "Silver"
     },
     {
-      "name": "Summit Ridge Outfitters",
+      "name": "AKOS FRAGRANCE",
       "logo": "images/3.jpg",
       "phone": "208-555-0139",
-      "address": "402 W Idaho St, Boise, ID 83702",
-      "website": "https://www.summitridgeoutfitters.example",
+      "address": "8 Oxford Street,Osu",
+      "website": "https://www.summitridgeoutfitters.com",
       "membership": "Gold"
     },
     {
-      "name": "Willow & Finch Florist",
+      "name": "GREEN HARVEST FOODS",
       "logo": "images/5.jpg",
       "phone": "208-555-0142",
-      "address": "17 S 8th St, Boise, ID 83702",
-      "website": "https://www.willowandfinch.example",
+      "address": "40 Spintex Road,Accra North",
+      "website": "https://www.willowandfinch.com",
       "membership": "Silver"
     },
     {
       "name": "Brightline Accounting",
       "logo": "images/6.jpg",
       "phone": "208-555-0156",
-      "address": "930 W Bannock St, Boise, ID 83702",
-      "website": "https://www.brightlineaccounting.example",
+      "address": "40 Spintex Road,Accra North",
+      "website": "https://www.brightlineaccounting.com",
       "membership": "Silver"
     },
     {
       "name": "Rivertown Print & Sign",
       "logo": "images/7.jpg",
       "phone": "208-555-0168",
-      "address": "121 E Front St, Boise, ID 83702",
-      "website": "https://www.rivertownprint.example",
+      "address": "22 Cantonments Road,Accra",
+      "website": "https://www.rivertownprint.com",
       "membership": "Silver"
     },
     {
       "name": "Gem State Cycles",
       "logo": "images/8.jpg",
       "phone": "208-555-0173",
-      "address": "76 S Cole Rd, Boise, ID 83709",
-      "website": "https://www.gemstatecycles.example",
+      "address": "25 Ring Road Central Accra",
+      "website": "https://www.gemstatecycles.com",
       "membership": "Bronze"
     },
     {
       "name": "Alder Street Coffee",
       "logo": "images/9.jpg",
       "phone": "208-555-0185",
-      "address": "309 Alder St, Boise, ID 83702",
-      "website": "https://www.alderstreetcoffee.example",
+      "address": "8 Oxford Street,Osu",
+      "website": "https://www.alderstreetcoffee.com",
       "membership": "Bronze"
     },
     {
       "name": "Foothill Community Garden",
       "logo": "images/10.jpg",
       "phone": "208-555-0191",
-      "address": "1500 Foothill Dr, Boise, ID 83712",
-      "website": "https://www.foothillgarden.example",
+      "address": "15 Liberation Road,Accra",
+      "website": "https://www.foothillgarden.com",
       "membership": "Bronze"
     }
   ]
