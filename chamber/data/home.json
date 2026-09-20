@@ -1,0 +1,76 @@
+{
+  "members": [
+    {
+      "name": "Copper Kettle Bakery",
+      "logo": "images/1.jpg",
+      "phone": "208-555-0114",
+      "address": "214 Main St, Boise, ID 83702",
+      "website": "https://www.copperkettlebakery.example",
+      "membership": "Gold"
+    },
+    {
+      "name": "Northgate Family Dental",
+      "logo": "images/2.jpg",
+      "phone": "208-555-0127",
+      "address": "58 N Capitol Blvd, Boise, ID 83702",
+      "website": "https://www.northgatedental.example",
+      "membership": "Gold"
+    },
+    {
+      "name": "Summit Ridge Outfitters",
+      "logo": "images/3.jpg",
+      "phone": "208-555-0139",
+      "address": "402 W Idaho St, Boise, ID 83702",
+      "website": "https://www.summitridgeoutfitters.example",
+      "membership": "Gold"
+    },
+    {
+      "name": "Willow & Finch Florist",
+      "logo": "images/5.jpg",
+      "phone": "208-555-0142",
+      "address": "17 S 8th St, Boise, ID 83702",
+      "website": "https://www.willowandfinch.example",
+      "membership": "Silver"
+    },
+    {
+      "name": "Brightline Accounting",
+      "logo": "images/6.jpg",
+      "phone": "208-555-0156",
+      "address": "930 W Bannock St, Boise, ID 83702",
+      "website": "https://www.brightlineaccounting.example",
+      "membership": "Silver"
+    },
+    {
+      "name": "Rivertown Print & Sign",
+      "logo": "images/7.jpg",
+      "phone": "208-555-0168",
+      "address": "121 E Front St, Boise, ID 83702",
+      "website": "https://www.rivertownprint.example",
+      "membership": "Silver"
+    },
+    {
+      "name": "Gem State Cycles",
+      "logo": "images/8.jpg",
+      "phone": "208-555-0173",
+      "address": "76 S Cole Rd, Boise, ID 83709",
+      "website": "https://www.gemstatecycles.example",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Alder Street Coffee",
+      "logo": "images/9.jpg",
+      "phone": "208-555-0185",
+      "address": "309 Alder St, Boise, ID 83702",
+      "website": "https://www.alderstreetcoffee.example",
+      "membership": "Bronze"
+    },
+    {
+      "name": "Foothill Community Garden",
+      "logo": "images/10.jpg",
+      "phone": "208-555-0191",
+      "address": "1500 Foothill Dr, Boise, ID 83712",
+      "website": "https://www.foothillgarden.example",
+      "membership": "Bronze"
+    }
+  ]
+}

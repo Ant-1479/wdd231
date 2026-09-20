@@ -1,7 +1,5 @@
 @media only screen and (min-width:37rem) {
-   header,footer,nav,main{
-    max-width:900px;
-    margin:0 auto;}
+   
 
   .Hamburger{
     display:none;
@@ -40,7 +38,6 @@
 }
 
 
-/* Footer styles for larger screens */
 @media screen and (min-width: 641px) {
 
     .footer-container {
@@ -59,4 +56,69 @@
     .social-icons {
         justify-content: flex-end;
     }
+}
+
+@media (min-width: 44em) {
+  .site-header__inner,
+  .site-footer__inner {
+    padding-inline: 1.5rem;
+  }
+
+  .home {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "hero hero"
+      "events weather"
+      "spotlights spotlights";
+    padding-inline: 1.5rem;
+  }
+
+  .hero__img {
+    aspect-ratio: 16 / 7;
+  }
+
+  .hero__panel {
+    inset: 0 auto 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: min(28rem, 55%);
+    padding: 1.5rem 2rem;
+    background: linear-gradient(to right, rgba(15, 61, 62, 0.95) 75%, rgba(15, 61, 62, 0));
+  }
+
+  .hero__lede {
+    display: block;
+    margin-top: 0.75rem;
+  }
+
+  .spotlight-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 64em) {
+  .home {
+    grid-template-columns: 3fr 2fr;
+    padding-top: 1.5rem;
+  }
+
+  .hero__img {
+    aspect-ratio: 16 / 6;
+  }
+
+  .hero__panel {
+    padding-left: 3rem;
+  }
+
+  .hero__lede {
+    font-size: 1.15rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .btn {
+    transition: none;
+  }
 }
