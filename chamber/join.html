@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+  <title>Chamber Member Home page</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta name="author" content="Obeng Antwiwaah Stephanie">
+  <meta name="description" content="Chamber Member home page for the Accra Chamber of Commerce">
+  <meta property="og:title" content="Accra Chamber of Commerce">
+  <meta property="og:description" content="Connecting businesses and building stronger communities in Accra, Ghana.">
+  <meta property="og:image" content="https://yourdomain.com/images/logo.png">
+<meta property="og:url" content="https://yourdomain.com/chamber/">
+
+  <link rel="stylesheet" href="styles/normalize.css" >
+  <link rel="stylesheet" href="styles/small.css" >
+   <link rel="stylesheet" href="styles/larger.css" >
+</head>
+<body>
+   <header>
+    <img src="images/logo.png" alt="Accra Chamber of Commerce Logo" class="logo" width="512" height="512">
+    <span>Akos Perfumery </span>
+    <button id="ham-btn" class="Hamburger"></button >
+   </header>
+    <nav id="nav-btn" class="nav">
+      <ul>
+         <li class="current"><a href="directory.html">Directory</a></li>
+         <li><a href="index.html">Home</a></li>
+        <li><a href="join.html">Join</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+     
+   <main class="join-layout">
+    <h1>Join the Chamber</h1>
+
+    <section class="form-area" aria-labelledby="form-heading">
+      <h2 id="form-heading">Membership application</h2>
+      <p class="note">Fields marked with * are required.</p>
+
+      <form action="thankyou.html" method="get">
+        <label for="fname">First name *
+          <input type="text" id="fname" name="fname" title="Enter your first name"
+                 autocomplete="given-name" required>
+        </label>
+
+        <label for="lname">Last name *
+          <input type="text" id="lname" name="lname" title="Enter your last name"
+                 autocomplete="family-name" required>
+        </label>
+
+        <label for="email">Email address *
+          <input type="email" id="email" name="email" title="Enter a valid email address"
+                 autocomplete="email" placeholder="jane.doe@example.com" required>
+        </label>
+
+        <label for="phone">Mobile phone number *
+          <input type="tel" id="phone" name="phone" title="Enter your mobile phone number"
+                 autocomplete="tel" required>
+        </label>
+
+        <label for="orgname">Business / organization name *
+          <input type="text" id="orgname" name="orgname" title="Enter your business or organization name"
+                 autocomplete="organization" required>
+        </label>
+
+        <label for="orgtitle">Your title in the organization
+          <input type="text" id="orgtitle" name="orgtitle"
+                 title="At least 7 characters: letters, hyphens, and spaces only"
+                 autocomplete="organization-title"
+                 pattern="[A-Za-z\- ]{7,}">
+        </label>
+
+        <label for="level">Membership level *
+          <select id="level" name="level" title="Choose a membership level" required>
+            <option value="" selected disabled>Select a level</option>
+            <option value="np">NP Membership (non profit, no fee)</option>
+            <option value="bronze">Bronze Membership</option>
+            <option value="silver">Silver Membership</option>
+            <option value="gold">Gold Membership</option>
+          </select>
+        </label>
+
+        <label for="description">Business / organization description
+          <textarea id="description" name="description" rows="4"
+                    title="Briefly describe your business or organization"></textarea>
+        </label>
+
+        <input type="hidden" id="timestamp" name="timestamp">
+
+        <button type="submit" class="submit-btn">Submit application</button>
+      </form>
+    </section>
+
+    <section class="levels" aria-labelledby="levels-heading">
+      <h2 id="levels-heading">Membership levels</h2>
+      <div class="cards">
+        <article class="card np">
+          <h3>NP Membership</h3>
+          <p>For non profit organizations. No fee.</p>
+          <button type="button" class="link-btn" data-modal="modal-np">See NP benefits</button>
+        </article>
+        <article class="card bronze">
+          <h3>Bronze Membership</h3>
+          <p>Essential listing and networking.</p>
+          <button type="button" class="link-btn" data-modal="modal-bronze">See Bronze benefits</button>
+        </article>
+        <article class="card silver">
+          <h3>Silver Membership</h3>
+          <p>More visibility and training.</p>
+          <button type="button" class="link-btn" data-modal="modal-silver">See Silver benefits</button>
+        </article>
+        <article class="card gold">
+          <h3>Gold Membership</h3>
+          <p>Top placement and every benefit.</p>
+          <button type="button" class="link-btn" data-modal="modal-gold">See Gold benefits</button>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== MODALS ===== -->
+  <dialog id="modal-np" aria-labelledby="np-title">
+    <h2 id="np-title">NP Membership</h2>
+    <p><strong>Cost:</strong> No fee (non profit organizations only)</p>
+    <ul>
+      <li>Listing in the member directory</li>
+      <li>Invitations to community networking events</li>
+      <li>Monthly chamber newsletter</li>
+    </ul>
+    <button type="button" class="close-btn">Close</button>
+  </dialog>
+
+  <dialog id="modal-bronze" aria-labelledby="bronze-title">
+    <h2 id="bronze-title">Bronze Membership</h2>
+    <p><strong>Cost:</strong> $250 per year</p>
+    <ul>
+      <li>Everything in NP Membership</li>
+      <li>Business profile with logo and website link</li>
+      <li>Discounted tickets to chamber events</li>
+      <li>Access to quarterly training workshops</li>
+    </ul>
+    <button type="button" class="close-btn">Close</button>
+  </dialog>
+
+  <dialog id="modal-silver" aria-labelledby="silver-title">
+    <h2 id="silver-title">Silver Membership</h2>
+    <p><strong>Cost:</strong> $500 per year</p>
+    <ul>
+      <li>Everything in Bronze Membership</li>
+      <li>Priority registration for all events</li>
+      <li>Banner advertising on the chamber website</li>
+      <li>Free access to all training sessions</li>
+    </ul>
+    <button type="button" class="close-btn">Close</button>
+  </dialog>
+
+  <dialog id="modal-gold" aria-labelledby="gold-title">
+    <h2 id="gold-title">Gold Membership</h2>
+
+    <p><strong>Cost:</strong> $1,000 per year</p>
+    <ul>
+      <li>Everything in Silver Membership</li>
+      <li>Spotlight position on the home page</li>
+      <li>Free sponsorship of one chamber event per year</li>
+      <li>Complimentary event tickets and a reserved table</li>
+    </ul>
+    <button type="button" class="close-btn">Close</button>
+  </dialog>
+
+
+   <footer>
+    <div class="footer-container">
+
+        <div class="footer-section">
+            <h2>Chamber of Commerce</h2>
+            <p>Connecting businesses and building stronger communities.</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Contact Us</h3>
+            <p>Accra, Ghana</p>
+            <p>Email: info@chamber.org</p>
+            <p>Phone: +233 24 000 0000</p>
+        </div>
+
+        <div class="footer-section">
+            <h3>Follow Us</h3>
+
+            <div class="social-icons">
+                <a href="https://www.facebook.com" target="_blank" aria-label="Facebook">
+                    <span>f</span>
+                </a>
+
+                <a href="https://www.instagram.com" target="_blank" aria-label="Instagram">
+                    <span>◎</span>
+                </a>
+
+                <a href="https://www.linkedin.com" target="_blank" aria-label="LinkedIn">
+                    <span>in</span>
+                </a>
+
+                <a href="https://www.youtube.com" target="_blank" aria-label="YouTube">
+                    <span>▶</span>
+                </a>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+        <p>&copy; 2026 Chamber of Commerce. All Rights Reserved.</p>
+        <p>WDD231 Web Development Project</p>
+        <p>Last Modified: <span id="lastModified"></span></p>
+    </div>
+</footer>
+
+   <script src="scripts/join.js"></script>
+   <script src="scripts/navigation.js"></script>
+</body>
+</html>

@@ -557,3 +557,69 @@ footer {
     grid-template-columns: repeat(3, 1fr);
   }
 }
+
+/*JOIN PAGE STYLES*/
+.join-layout { max-width: 1100px; margin: 0 auto; padding: 1rem; }
+.join-layout > h1 { grid-column: 1 / -1; }
+.note { font-size: 0.9rem; }
+
+/* Mobile first: form, then cards below */
+.join-layout { display: grid; gap: 2rem; }
+
+form { display: grid; gap: 1rem; max-width: 34rem; }
+form label { display: grid; gap: 0.3rem; font-weight: 600; }
+form input, form select, form textarea {
+  font: inherit; font-weight: 400; padding: 0.6rem;
+  border: 1px solid var(--jn-border); border-radius: 4px; width: 100%;
+  box-sizing: border-box;
+}
+form input:focus-visible, form select:focus-visible, form textarea:focus-visible,
+button:focus-visible, .link-btn:focus-visible {
+  outline: 3px solid var(--jn-accent); outline-offset: 2px;
+}
+form input:user-invalid { border-color: #b00020; }
+
+.submit-btn, .close-btn {
+  font: inherit; font-weight: 700; padding: 0.75rem 1.25rem; cursor: pointer;
+  background: var(--jn-primary); color: #fff; border: 10px; border-radius: 4px;
+  justify-self: start;
+}
+.submit-btn:hover, .close-btn:hover { filter: brightness(1.15); }
+
+/* Cards */
+.cards { display: grid; gap: 1rem; }
+.card {
+  padding: 1rem 1.25rem; border: 1px solid var(--jn-border);
+  border-left-width: 8px; border-radius: 6px; background: var(--jn-bg);
+  opacity: 0;
+  animation: card-in 700ms ease-out forwards;
+}
+.card h3 { margin-top: 0; }
+.card.np     { border-left-color: #4f8a5b; animation-delay: 0.1s; }
+.card.bronze { border-left-color: #a8693a; animation-delay: 0.35s; }
+.card.silver { border-left-color: #8d98a1; animation-delay: 0.6s; }
+.card.gold   { border-left-color: #d4a017; animation-delay: 0.85s; }
+
+@keyframes card-in {
+  from { opacity: 0; margin-left: 2rem; }
+  to   { opacity: 1; margin-left: 0; }
+}
+
+.link-btn {
+  background: none; border: 0; padding: 0; font: inherit; cursor: pointer;
+  color: var(--jn-primary); text-decoration: underline;
+}
+
+/* Modals */
+dialog {
+  max-width: min(32rem, 90vw); border: 2px solid var(--jn-primary);
+  border-radius: 8px; padding: 1.5rem;
+}
+dialog::backdrop { background: rgba(0, 0, 0, 0.55); }
+
+/* Thank-you page */
+.thanks { max-width: 40rem; margin: 0 auto; padding: 1rem; }
+.results { border: 1px solid var(--jn-border); border-radius: 6px; padding: 1rem 1.5rem; margin: 1.5rem 0; }
+.results dl { display: grid; grid-template-columns: max-content 1fr; gap: 0.5rem 1.5rem; margin: 0; }
+.results dt { font-weight: 700; }
+.results dd { margin: 0; overflow-wrap: anywhere; }

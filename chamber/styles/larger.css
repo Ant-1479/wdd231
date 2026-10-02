@@ -122,3 +122,13 @@
     transition: none;
   }
 }
+
+/* Join page */
+@media (min-width: 800px) {
+  .join-layout { grid-template-columns: 1fr 20rem; align-items: start; }
+  .cards { grid-template-columns: 1fr; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card { animation: none; opacity: 1; }
+}
