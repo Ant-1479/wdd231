@@ -132,3 +132,45 @@
 @media (prefers-reduced-motion: reduce) {
   .card { animation: none; opacity: 1; }
 }
+
+/* Discover page */
+/* Large: 1025px+, four columns, a different arrangement again */
+@media (min-width: 1025px) {
+  .discover-grid {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas:
+      "c1 c1 c2 c3"
+      "c4 c5 c5 c6"
+      "c7 c7 c8 c8";
+  }
+}
+
+/* Hover effect: not applied in the mobile view */
+@media (min-width: 641px) and (hover: hover) {
+  .card img { transition: transform .3s, filter .3s, box-shadow .3s; }
+  .card img:hover { transform: scale(1.05); filter: grayscale(40%) contrast(1.1); box-shadow: 0 6px 14px rgba(0,0,0,.35); }
+}
+
+/* Medium: 641-1024px, two columns with full-width feature cards (cards 1 and 6)
+   that also use an internal image-left / text-right named-area layout */
+@media (min-width: 641px) {
+  .discover-grid {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "c1 c1"
+      "c2 c3"
+      "c4 c5"
+      "c6 c6"
+      "c7 c8";
+  }
+  .card:nth-child(1), .card:nth-child(6) {
+    grid-template-columns: 300px 1fr;
+    grid-template-areas: "title title" "img addr" "img desc" "img btn";
+    column-gap: 1rem;
+  }
+  .card:nth-child(1) h2, .card:nth-child(6) h2 { grid-area: title; }
+  .card:nth-child(1) figure, .card:nth-child(6) figure { grid-area: img; }
+  .card:nth-child(1) address, .card:nth-child(6) address { grid-area: addr; }
+  .card:nth-child(1) p, .card:nth-child(6) p { grid-area: desc; }
+  .card:nth-child(1) button, .card:nth-child(6) button { grid-area: btn; }
+}

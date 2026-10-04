@@ -4,12 +4,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
-  <title>Chamber Member Home page</title>
+  <title>Chamber Member Join page</title>
    <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <meta name="author" content="Obeng Antwiwaah Stephanie">
-  <meta name="description" content="Chamber Member home page for the Accra Chamber of Commerce">
+  <meta name="description" content="Chamber Member Discoverpage for the AccraChamber of Commerce">
   <meta property="og:title" content="Accra Chamber of Commerce">
   <meta property="og:description" content="Connecting businesses and building stronger communities in Accra, Ghana.">
   <meta property="og:image" content="https://yourdomain.com/images/logo.png">
@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="styles/normalize.css" >
   <link rel="stylesheet" href="styles/small.css" >
    <link rel="stylesheet" href="styles/larger.css" >
+    <script  type="module" src="scripts/discover.js"></script>
 </head>
 <body>
    <header>
@@ -33,76 +34,17 @@
         <li><a href="discover.html">Discover</a></li>
       </ul>
     </nav>
-     
-  <main id="main" class="home">
+      <main>
+    <h1>THE DISCOVER CHAMBER</h1>
 
-    <section class="hero" aria-labelledby="hero-title">
-      <img class="hero__img"
-           src="images/hero.webp"
-           width="1600" height="700"
-           alt="Illustration of a downtown main street at dusk with storefronts and striped awnings">
-      <div class="hero__panel">
-        <h1 id="hero-title" class="hero__title">Local businesses do better together</h1>
-        <p class="hero__lede">Meet other owners, promote your business, and help shape the future of downtown.</p>
-        <a class="btn" href="join.html">Join the chamber</a>
-      </div>
+    <section id="visit-message" class="visit-message" aria-live="polite" hidden>
+      <p id="visit-text"></p>
+      <button type="button" id="visit-close" aria-label="Close message">&times;</button>
     </section>
 
-    <section class="events panel" aria-labelledby="events-title">
-      <h2 id="events-title" class="section-title">Upcoming events</h2>
-      <ul class="event-list">
-        <li class="event">
-          <time class="event__date" datetime="2026-10-01">
-            <span class="event__month">Oct</span>
-            <span class="event__day">1</span>
-          </time>
-          <div>
-            <h3 class="event__title">Business After Hours</h3>
-            <p class="event__meta">Thursday, 5:30 pm </p>
-          </div>
-        </li>
-        <li class="event">
-          <time class="event__date" datetime="2026-10-15">
-            <span class="event__month">Oct</span>
-            <span class="event__day">15</span>
-          </time>
-          <div>
-            <h3 class="event__title">Ribbon cutting: Summit Ridge Outfitters</h3>
-            <p class="event__meta">Thursday, 10:00 am at 402 W Idaho St</p>
-          </div>
-        </li>
-        <li class="event">
-          <time class="event__date" datetime="2026-10-22">
-            <span class="event__month">Oct</span>
-            <span class="event__day">22</span>
-          </time>
-          <div>
-            <h3 class="event__title">Small business tax workshop</h3>
-            <p class="event__meta">Thursday, 12:00 pm at the Chamber office</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <section class="weather panel" aria-labelledby="weather-title">
-      <h2 id="weather-title" class="section-title">Weather in Boise, ID</h2>
-      <div id="weather-current" aria-live="polite">
-        <p class="status">Loading current conditions…</p>
-      </div>
-      <h3 class="weather__subtitle">3-day forecast</h3>
-      <ul id="weather-forecast" class="forecast">
-        <li class="status">Loading forecast…</li>
-      </ul>
-    </section>
-
-    <section class="spotlights" aria-labelledby="spotlight-title">
-      <h2 id="spotlight-title" class="section-title">Member spotlights</h2>
-      <div id="spotlight-grid" class="spotlight-grid">
-        <p class="status">Loading member spotlights…</p>
-      </div>
-    </section>
-
+    <section id="discover-grid" class="discover-grid" aria-label="Places of interest"></section>
   </main>
+  
 
    <footer>
     <div class="footer-container">
@@ -150,7 +92,7 @@
     </div>
 </footer>
 
-   <script src="scripts/home.js"></script>
+  
    <script src="scripts/navigation.js"></script>
 </body>
 </html>
