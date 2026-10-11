@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Black structured tote bag">
+<title>Black structured tote bag</title>
+<ellipse cx="200" cy="362" rx="125" ry="12" fill="#000" opacity=".12"/>
+<g transform=""><path d="M140 190 C140 100 260 100 260 190" fill="none" stroke="#C9A24B" stroke-width="10" stroke-linecap="round"/>
+<path d="M88 190 H312 L338 338 Q340 354 322 354 H78 Q60 354 62 338 Z" fill="#161616" stroke="#000000" stroke-width="2"/>
+<path d="M88 190 H312 L316 222 H84 Z" fill="#2c2c2c"/>
+<circle cx="200" cy="222" r="12" fill="#C9A24B"/><circle cx="200" cy="222" r="4" fill="#161616"/></g>
+</svg>

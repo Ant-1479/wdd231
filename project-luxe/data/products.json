@@ -1,0 +1,134 @@
+[
+  {
+    "id": "AL-001",
+    "name": "Noir Structured Tote",
+    "category": "bags",
+    "price": 150,
+    "image": "images/products/bag-noir-tote.svg",
+    "description": "A roomy black ladies bag with a firm shape, gold-tone handles and a front clasp. Fits a laptop, a lunch box and everything else you carry to work.",
+    "tags": ["black", "work", "tote", "ladies", "handbag"],
+    "available": true,
+    "isNew": true
+  },
+  {
+    "id": "AL-002",
+    "name": "Blush Mini Crossbody",
+    "category": "bags",
+    "price": 140,
+    "image": "images/products/bag-blush-crossbody.svg",
+    "description": "A small pink ladies bag with a long gold-tone strap. Light enough for a day out, with room for your phone, keys and lipstick.",
+    "tags": ["pink", "small", "crossbody", "ladies", "handbag"],
+    "available": true,
+    "isNew": true
+  },
+  {
+    "id": "AL-003",
+    "name": "Golden Hour Clutch",
+    "category": "bags",
+    "price": 120,
+    "image": "images/products/bag-gold-clutch.svg",
+    "description": "A slim gold envelope clutch with a magnetic flap. Carry it by hand or clip on the short chain for weddings, dinners and parties.",
+    "tags": ["gold", "evening", "party", "clutch", "ladies"],
+    "available": true,
+    "isNew": false
+  },
+  {
+    "id": "AL-004",
+    "name": "Ivory Shoulder Bag",
+    "category": "bags",
+    "price": 165,
+    "image": "images/products/bag-ivory-shoulder.svg",
+    "description": "A soft ivory ladies bag with a framed buckle and an easy shoulder drop. Pairs with both bright and neutral outfits.",
+    "tags": ["white", "ivory", "shoulder", "ladies", "handbag"],
+    "available": true,
+    "isNew": false
+  },
+  {
+    "id": "AL-005",
+    "name": "Classic Black Pump",
+    "category": "shoes",
+    "price": 200,
+    "image": "images/products/shoe-black-pump.svg",
+    "description": "A close-fitting black court shoe with a slim heel and a gold-tone sole edge. Dresses up office wear and dinner outfits alike.",
+    "tags": ["black", "heels", "office", "pump", "ladies"],
+    "available": true,
+    "isNew": true
+  },
+  {
+    "id": "AL-006",
+    "name": "Rose Block Heel Sandal",
+    "category": "shoes",
+    "price": 185,
+    "image": "images/products/shoe-rose-block.svg",
+    "description": "A rose-pink sandal with a wide block heel and an ankle strap, so you can dance or stand through a long event in comfort.",
+    "tags": ["pink", "heels", "block heel", "sandal", "ladies"],
+    "available": true,
+    "isNew": false
+  },
+  {
+    "id": "AL-007",
+    "name": "Gold Strappy Heel",
+    "category": "shoes",
+    "price": 210,
+    "image": "images/products/shoe-gold-strappy.svg",
+    "description": "A shimmering gold heel with bold straps across the foot. Made to be the centre of a party outfit.",
+    "tags": ["gold", "heels", "party", "strappy", "ladies"],
+    "available": true,
+    "isNew": true
+  },
+  {
+    "id": "AL-008",
+    "name": "Ivory Slingback Heel",
+    "category": "shoes",
+    "price": 195,
+    "image": "images/products/shoe-ivory-slingback.svg",
+    "description": "An ivory slingback with a gold bow at the toe and a mid-height heel. Currently sold out; message us to join the waiting list.",
+    "tags": ["white", "ivory", "heels", "slingback", "ladies"],
+    "available": false,
+    "isNew": false
+  },
+  {
+    "id": "AL-009",
+    "name": "Cloud Soft Slides",
+    "category": "slippers",
+    "price": 75,
+    "image": "images/products/slipper-pink-cloud.svg",
+    "description": "Thick, cushioned pink slides that feel like walking on a pillow. Easy to slip on for the house, the beach or a quick trip out.",
+    "tags": ["pink", "comfort", "slides", "home", "ladies"],
+    "available": true,
+    "isNew": true
+  },
+  {
+    "id": "AL-010",
+    "name": "Black Comfort Slides",
+    "category": "slippers",
+    "price": 70,
+    "image": "images/products/slipper-black-comfort.svg",
+    "description": "Everyday black slides with a flexible sole and a gold-tone detail. Plain enough to wear with anything.",
+    "tags": ["black", "slides", "everyday", "ladies"],
+    "available": true,
+    "isNew": false
+  },
+  {
+    "id": "AL-011",
+    "name": "Gold Bow Slides",
+    "category": "slippers",
+    "price": 85,
+    "image": "images/products/slipper-gold-bow.svg",
+    "description": "Flat gold slides finished with a small bow. A dressy slipper for holidays and relaxed evenings.",
+    "tags": ["gold", "bow", "slides", "ladies"],
+    "available": true,
+    "isNew": false
+  },
+  {
+    "id": "AL-012",
+    "name": "Ivory Spa Slippers",
+    "category": "slippers",
+    "price": 65,
+    "image": "images/products/slipper-ivory-spa.svg",
+    "description": "Closed-toe ivory house slippers with a soft lining. Keep your feet warm indoors and make a good gift.",
+    "tags": ["white", "ivory", "home", "gift", "ladies"],
+    "available": true,
+    "isNew": false
+  }
+]

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact and orders | Akos Luxe</title>
+  <meta name="description" content="Send an order or ask a question. Tell Akos Luxe which product you want and how to reach you.">
+  <meta name="theme-color" content="#0d0d0d">
+  <meta property="og:title" content="Contact and orders | Akos Luxe">
+  <meta property="og:description" content="Send an order or ask a question. Tell Akos Luxe which product you want and how to reach you.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="images/icon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;0,6..96,700;1,6..96,500&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/small.css">
+  <link rel="stylesheet" href="css/large.css" media="(min-width: 768px)">
+  <script src="js/nav.js" defer></script>
+  <script src="data/products.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body data-page="contact">
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <header class="site-header" id="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html">
+        <img src="images/icon.svg" alt="" width="36" height="36">
+        <span>Akos Luxe</span>
+      </a>
+      <nav id="primary-nav" class="primary-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" aria-current="page">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header-tools">
+        <button class="icon-btn cart-btn" type="button" id="cart-button" aria-controls="cart-drawer" aria-label="Open cart, empty">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M6 8h12l1.2 12H4.8L6 8Z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M9 8V6.5a3 3 0 0 1 6 0V8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg><span class="cart-count" id="cart-count" aria-hidden="true">0</span>
+        </button>
+        <button class="icon-btn nav-toggle" type="button" id="nav-toggle" aria-expanded="false" aria-controls="primary-nav" aria-label="Open menu">
+          <svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+  <noscript><p class="notice notice--error">Akos Luxe needs JavaScript to show products and the cart. Please turn it on and reload.</p></noscript>
+
+  <main id="main">
+    <section class="page-head">
+      <div class="container">
+        <h1>Order or ask a question</h1>
+        <p>Tell us what you would like and how to reach you. We will reply to confirm availability and delivery.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container container--form">
+        <div id="notices" class="notices"></div>
+        <p id="form-summary" class="form-summary" role="alert" hidden></p>
+        <form id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Full name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required aria-describedby="name-error">
+            <p class="field__error" id="name-error"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required aria-describedby="email-error">
+            <p class="field__error" id="email-error"></p>
+          </div>
+          <div class="field">
+            <label for="phone">Phone number</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel" required aria-describedby="phone-hint phone-error">
+            <p class="field__hint" id="phone-hint">We may call or message you on WhatsApp to confirm.</p>
+            <p class="field__error" id="phone-error"></p>
+          </div>
+          <div class="field">
+            <label for="product">Product of interest</label>
+            <select id="product" name="product"></select>
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" required aria-describedby="message-error"></textarea>
+            <p class="field__error" id="message-error"></p>
+          </div>
+          <button class="btn btn--gold" type="submit">Send message</button>
+        </form>
+        <div class="form-success" id="form-success" tabindex="-1" hidden>
+          <h2>Thanks, <span data-name></span>. Your message is ready.</h2>
+          <p>Choose how to send it to Akos Luxe. Your details are filled in for you.</p>
+          <div class="form-success__actions">
+            <a class="btn btn--gold" id="send-whatsapp" href="#" target="_blank" rel="noopener">Send on WhatsApp</a>
+            <a class="btn btn--dark" id="send-email" href="#">Send by email</a>
+          </div>
+          <button class="link-btn" type="button" data-again>Edit my message</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="site-footer"></footer>
+</body>
+</html>

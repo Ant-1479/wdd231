@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Gold strappy heel">
+<title>Gold strappy heel</title>
+<ellipse cx="200" cy="362" rx="125" ry="12" fill="#000" opacity=".12"/>
+<g transform="translate(200 205) scale(1.18) translate(-200 -245)"><path d="M88 150 C90 175 120 215 175 232 C215 242 250 225 285 245 C320 262 342 280 338 292 C334 304 300 304 262 300 C215 296 170 275 140 262 L112 338 L98 338 C92 300 84 230 88 150 Z" fill="#DDB95F" stroke="#8F6F1E" stroke-width="2" stroke-linejoin="round"/><path d="M205 238 L222 298 M246 232 L262 300" stroke="#7A5C12" stroke-width="9" stroke-linecap="round"/><path d="M92 200 C120 220 150 232 175 232" fill="none" stroke="#7A5C12" stroke-width="6" stroke-linecap="round"/><path d="M338 292 C334 304 300 304 262 300 C215 296 170 275 140 262" fill="none" stroke="#B8923A" stroke-width="5" stroke-linecap="round"/></g>
+</svg>
