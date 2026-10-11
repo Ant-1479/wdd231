@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Pink mini crossbody bag">
+<title>Pink mini crossbody bag</title>
+<ellipse cx="200" cy="362" rx="125" ry="12" fill="#000" opacity=".12"/>
+<g transform=""><path d="M122 176 C96 40 304 40 278 176" fill="none" stroke="#C9A24B" stroke-width="7" stroke-linecap="round"/>
+<rect x="100" y="170" width="200" height="170" rx="26" fill="#E57AA4" stroke="#A83A6B" stroke-width="2"/>
+<path d="M100 196 Q100 170 126 170 H274 Q300 170 300 196 V236 Q200 306 100 236 Z" fill="#CC5588"/>
+<circle cx="200" cy="268" r="12" fill="#C9A24B"/><circle cx="200" cy="268" r="4" fill="#E57AA4"/></g>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Ivory shoulder bag">
+<title>Ivory shoulder bag</title>
+<ellipse cx="200" cy="362" rx="125" ry="12" fill="#000" opacity=".12"/>
+<g transform=""><path d="M128 176 C128 60 272 60 272 176" fill="none" stroke="#C9A24B" stroke-width="10" stroke-linecap="round"/>
+<path d="M82 214 Q82 168 132 168 H268 Q318 168 318 214 L330 322 Q332 352 300 352 H100 Q68 352 70 322 Z" fill="#F6F0E4" stroke="#B9A987" stroke-width="2"/>
+<path d="M82 214 Q82 168 132 168 H268 Q318 168 318 214 L320 240 Q200 276 80 240 Z" fill="#E3D8C0"/>
+<rect x="182" y="238" width="36" height="28" rx="6" fill="none" stroke="#C9A24B" stroke-width="6"/></g>
+</svg>

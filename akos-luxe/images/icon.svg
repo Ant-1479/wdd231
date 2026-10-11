@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Akos Luxe">
+<rect width="128" height="128" rx="26" fill="#0d0d0d"/>
+<path d="M44 58 C44 26 84 26 84 58" fill="none" stroke="#C9A24B" stroke-width="5" stroke-linecap="round"/>
+<path d="M30 58 H98 L106 104 Q107 110 100 110 H28 Q21 110 22 104 Z" fill="#C9A24B"/>
+<circle cx="102" cy="30" r="6" fill="#E8528E"/>
+<text x="64" y="94" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-weight="700" font-size="30" fill="#0d0d0d">AL</text>
+</svg>
